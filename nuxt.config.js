@@ -29,7 +29,11 @@ module.exports = {
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
-  css: ['assets/css/font-awesome.min.css', 'assets/css/bootstrap.min.css','assets/css/style.css'],
+  css: [
+    '~/static/css/font-awesome.min.css',
+    '~/static/css/bootstrap.min.css',
+    '~/static/css/style.css'
+  ],
   /*
   ** Build configuration
   */
