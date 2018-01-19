@@ -6,7 +6,7 @@
   			<div class="row">
   				<div class="col-md-8 col-md-offset-2 no-padding">
   					<div class="col-md-12 text-center user">
-  						<img src="~assets/img/avatar.jpg" alt="Me" class="img-circle">
+  						<img src="~/static/img/avatar.jpg" alt="Me" class="img-circle">
   						<h1>Shi Cheng</h1>
   						<h4>Web Developer living in Atlanta</h4>
   						<div class="social-icons">
