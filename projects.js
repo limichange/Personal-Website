@@ -2,7 +2,7 @@ const projects = [
   {
     title: 'Varidada',
     category: 'web-development',
-    image: 'img/varidada.png',
+    image: '/img/varidada.png',
     description: '<p>Varidada Inc. is a music technology startup that aims at creating new ways for musiccollaboration. I did an internship there and participated in the development of their first product, varidada.com</p><p>This is a platform that helps musicians to upload their recordings/sound tracks and collaborate with the other players jamming online. It provides cute cartoon characters, powerful online recorder and online practicing systems. The whole project is based on MEAN stack (MongoDB, Express, AngularJS, NodeJS). As a full stack developer, I participated in setting up the basic functionalities of it, especially music mixing and recording mechanism.</p>',
     url: 'https://www.varidada.com',
     technology: 'NodeJS, AngularJS, MongoDB',
