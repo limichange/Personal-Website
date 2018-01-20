@@ -36,6 +36,9 @@ export default {
   components: {
     PortfolioItem
   },
+  mounted () {
+    window.$('.works').mixItUp()
+  },
   data () {
     return {
       projects
