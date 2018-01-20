@@ -1,6 +1,6 @@
 module.exports = {
   router: {
-    base: 'Personal-Website'
+    base: '/Personal-Website'
   },
   /*
   ** Headers of the page
