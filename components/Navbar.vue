@@ -17,9 +17,9 @@
           <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
               <li v-for="(tab, index) in tabs">
-                <a :class="{active: $nuxt.$route.path === tab.path}" :href="tab.path">
+                <nuxt-link :class="{active: $nuxt.$route.path === tab.path}" :to="tab.path">
                   {{ tab.title }}
-                </a>
+                </nuxt-link>
               </li>
             </ul>
           </div><!-- /.navbar-collapse -->

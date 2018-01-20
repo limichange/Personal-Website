@@ -1,6 +1,6 @@
 module.exports = {
   router: {
-    base: 'https://limichange.github.io/Personal-Website'
+    base: 'Personal-Website'
   },
   /*
   ** Headers of the page
