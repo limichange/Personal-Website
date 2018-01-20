@@ -1,4 +1,7 @@
 module.exports = {
+  router: {
+    base: 'https://limichange.github.io/Personal-Website'
+  },
   /*
   ** Headers of the page
   */
@@ -17,12 +20,12 @@ module.exports = {
       { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=PT+Sans:400,700' },
     ],
     script: [
-      { src: 'js/modernizr.js' },
-      { src: 'js/jquery-2.1.1.js', body: true },
-  //    { src: 'js/smoothscroll.js', body: true },
-      { src: 'js/bootstrap.min.js', body: true },
-      { src: 'js/jquery.mixitup.js', body: true},
-      { src: 'js/custom.js', body: true }
+      { src: 'https://limichange.github.io/Personal-Website/js/modernizr.js' },
+      { src: 'https://limichange.github.io/Personal-Website/js/jquery-2.1.1.js', body: true },
+  //    { src: 'https://limichange.github.io/Personal-Website/js/smoothscroll.js', body: true },
+      { src: 'https://limichange.github.io/Personal-Website/js/bootstrap.min.js', body: true },
+      { src: 'https://limichange.github.io/Personal-Website/js/jquery.mixitup.js', body: true},
+      { src: 'https://limichange.github.io/Personal-Website/js/custom.js', body: true }
     ]
   },
   /*
@@ -38,6 +41,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    publicPath: '/assets/',
     /*
     ** Run ESLint on save
     */
